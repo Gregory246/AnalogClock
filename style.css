@@ -15,40 +15,47 @@
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #000;
+    stroke: red;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .mid-circle {
-    fill: #000;
+    fill: #000000;
 }
 .hour-marks {
     fill: none;
-    stroke: #000;
+    stroke: #000000;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
 
 .hour-arm {
     fill: none;
-    stroke: #000;
+    stroke: #000000;
     stroke-width: 17;
     stroke-miterlimit: 10;
 }
 
 .minute-arm {
     fill: none;
-    stroke: #000;
+    stroke: #000000;
     stroke-width: 11;
     stroke-miterlimit: 10;
 }
 
 .second-arm {
     fill: none;
-    stroke: #000;
+    stroke: #000000;
     stroke-width: 4;
     stroke-miterlimit: 10;
+}
+
+.clock-signature {
+    color: black;
+    text-align: center;
+    position: relative;
+    top: -200px;
 }
 
 /* Transparent box ensuring arms center properly. */
